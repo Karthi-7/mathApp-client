@@ -1,0 +1,150 @@
+.signup{
+    height: 100vh;
+    // background: url("../../assets//signup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:black;
+    background-blend-mode: luminosity;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+
+    .container{
+        width: 80%;
+        // border: 1px solid aliceblue;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: rgba(138, 132, 132, 0.24) 0px 3px 8px;
+        
+      
+        input{
+            background-color: transparent;
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 0.6rem;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid;
+            border-color: aliceblue;   
+            color:whitesmoke        
+        }
+        input::placeholder{
+            color:whitesmoke
+        }
+
+        .login-step{
+            cursor: pointer;       
+        }
+     
+    }
+
+    .btn{
+        color:black !important;
+    }
+
+
+}
+
+@media screen and (max-width:620px) {
+    .signup{
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color:black;
+        background-blend-mode: luminosity;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.8;
+
+        .container{
+            width: 80% ;
+            input{
+                width: 100%;
+            }
+        }
+    }
+
+  
+    
+}
+
+
+
+//login
+
+.login{
+    height: 100vh;
+    // background: url("../../assets//signup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:black;
+    background-blend-mode: luminosity;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+
+    .container{
+        width: 80%;
+        // border: 1px solid aliceblue;
+        padding: 1rem;
+        border-radius: 1rem;
+        box-shadow: rgba(138, 132, 132, 0.24) 0px 3px 8px;
+        
+      
+        input{
+            background-color: transparent;
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 0.6rem;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid;
+            border-color: aliceblue;   
+            color:whitesmoke      
+        }
+        input::placeholder{
+            color:whitesmoke
+        }
+
+        .login-step{
+            cursor: pointer;       
+        }
+     
+    }
+
+}
+
+@media screen and (max-width:620px) {
+    .login{
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color:black;
+        background-blend-mode: luminosity;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.8;
+
+        .container{
+            width: 80% ;
+            input{
+                width: 100%;
+            }
+        }
+    }
+
+  
+    
+}
