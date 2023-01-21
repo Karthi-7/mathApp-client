@@ -46,17 +46,17 @@ const [loginData, setlogin] = useState({
  }
 
 
-//  let reqInstance = axios.create({
-//   headers: {
-//     Authorization : `Bearer ${localStorage.getItem("auth")}`
-//     }
-//   })
+ let reqInstance = axios.create({
+  headers: {
+    Authorization : `Bearer ${localStorage.getItem("auth")}`
+    }
+  })
 
  const loginSubmit=async()=>{
   
 
   try{
-    const response=await (await axios.post(`${process.env.REACT_APP_BASE_URL}/signin`,loginData)).data;
+    const response=await (await reqInstance.post(`${process.env.REACT_APP_BASE_URL}/signin`,loginData)).data;
     localStorage.setItem('currentUser',JSON.stringify(response))
     navigate('/home')
 
